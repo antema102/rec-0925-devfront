@@ -1,4 +1,20 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../**/*.blade.php';
 @source '../**/*.js';
+
+body{
+  font-family: "Lato", sans-serif;
+}
+
+.accent-color {
+    color: #d83a7a;
+}
+
+.bg-accent-color {
+    background-color: #d83a7a;
+}
+
+.hover\:bg-accent-color-dark:hover {
+    background-color: #c22e69;
+}

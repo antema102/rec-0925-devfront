@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/andriamihaja-completez-votre-reservation', function () {
+    return view('completez-votre-reservation');
+});
+
+Route::get('/andriamihaja-paiement', function () {
+    return view('paiement');
+});
