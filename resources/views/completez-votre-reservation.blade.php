@@ -181,11 +181,11 @@
                     <p class="text-md">Total</p>
                     <p class="text-lg md:text-xl font-bold">135€</p>
                 </div>
-                <button
-                    class="bg-[#BF2A6B] hover:bg-pink-800 transition rounded-xl flex justify-center items-center text-md gap-2 py-2">
+                <a href="/andriamihaja-paiement"
+                    class="bg-[#BF2A6B] hover:bg-pink-800 transition rounded-xl flex justify-center items-center text-md gap-2 py-2 text-center">
                     <span>Suivant</span>
                     <span>→</span>
-                </button>
+                </a>
             </div>
         </div>
     </div>
