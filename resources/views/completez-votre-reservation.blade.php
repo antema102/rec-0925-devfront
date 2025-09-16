@@ -25,13 +25,18 @@
                     <!-- Prix -->
                     <div class="flex flex-col items-center text-center p-6 border-b border-gray-200">
                         <p class="text-4xl font-bold flex items-center">
-                            <span class="text-2xl">+</span>0€
+                            <span class="text-2xl">+</span>0 €
                         </p>
-                        <button
-                            class="bg-[#F2F3F5] shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
-                            <div class="h-[15px] w-[15px] bg-white rounded-full"></div>
-                            <p class="text-sm text-[#353535] font-bold ">Sélectionne</p>
-                        </button>
+                        <label
+                            class="border-gray-200   bg-[#F2F3F5]  shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
+                            <input type="checkbox" class="hidden peer p-4" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hidden peer-checked:block w-5 h-5 text-white"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <div class="w-5 h-5 bg-white rounded-2xl peer-checked:hidden peer-checked:opacity-0"></div>
+                            <span class="text-sm font-bold">Sélectionner</span>
+                        </label>
                     </div>
 
                     <!-- Features -->
@@ -75,12 +80,22 @@
                         </p>
                         <p class="text-xs py-1.5">
                             A peine le prix d'un resto
-                        <p>
-                            <button
-                                class="bg-[#0DBC0D] shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
-                                <div class="h-[15px] w-[15px] bg-white rounded-full"></div>
-                                <p class="text-sm text-white font-bold ">Sélectionner</p>
-                            </button>
+                        </p>
+
+                        <label
+                            class="bg-[#0DBC0D] shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
+
+                            <input type="checkbox" class="hidden peer p-4" />
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hidden peer-checked:block w-5 h-5 text-white"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <div class="w-5 h-5 bg-white rounded-2xl peer-checked:hidden peer-checked:opacity-0"></div>
+
+                            <span class="text-sm text-white font-bold">Sélectionner</span>
+                        </label>
                     </div>
 
                     <!-- Features -->
@@ -121,17 +136,23 @@
                     <!-- Prix -->
                     <div class="flex flex-col items-center text-center p-6 border-b border-gray-200">
                         <p class="text-4xl font-bold flex items-center">
-                            <span class="text-2xl">+</span>60€
+                            <span class="text-2xl">+</span>60 €
                         </p>
                         <p class="text-xs py-1.5">
                             A peine le prix d'un resto
-                        <p>
-                            <button
-                                class="bg-[#36578A] shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
-                                <div class="h-[15px] w-[15px] bg-white rounded-full"></div>
-                                <p class="text-sm text-white font-bold ">Sélectionner</p>
-                            </button>
+                        </p>
+                        <label
+                            class="bg-[#36578A] shadow-md mt-3 px-6 py-3 rounded-xl flex items-center gap-2 cursor-pointer transition">
+                            <input type="checkbox" class="hidden peer p-4" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hidden peer-checked:block w-5 h-5 text-white"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <div class="w-5 h-5 bg-white rounded-2xl peer-checked:hidden peer-checked:opacity-0"></div>
+                            <span class="text-sm text-white font-bold">Sélectionner</span>
+                        </label>
                     </div>
+
 
                     <!-- Features -->
                     <div class="flex flex-col gap-4 max-w-xs mx-auto py-6 px-5">
