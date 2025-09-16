@@ -65,7 +65,7 @@
                                 class="flex items-center border border-gray-200 rounded-md p-4 cursor-pointer has-[:checked]:border-pink-600 has-[:checked]:ring-1 has-[:checked]:ring-pink-600">
                                 <input type="radio" id="cb" name="payment"
                                     class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
-                                <img src="https://i.imgur.com/QIuAytI.png" alt="Cartes bancaires" class="h-6 ml-4">
+                                <img src="https://download.logo.wine/logo/Visa_Inc./Visa_Inc.-Logo.wine.png" alt="Cartes bancaires" class="h-6 ml-4 object-contain">
                                 <span class="ml-3 flex-grow text-sm font-medium text-gray-700">Carte bancaire</span>
                             </label>
                             <label for="applepay"
@@ -86,7 +86,7 @@
                                 class="flex items-center border border-gray-200 rounded-md p-4 cursor-pointer has-[:checked]:border-pink-600 has-[:checked]:ring-1 has-[:checked]:ring-pink-600">
                                 <input type="radio" id="alma" name="payment"
                                     class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
-                                <img src="https://i.imgur.com/uJp1YGo.png" alt="Logo Alma" class="h-6 ml-4">
+                                <img src="https://www.sucyconduites.com/wp-content/docs/alma-getalma-eu-logo-vector.png" alt="Logo Alma" class="h-6 ml-4">
                                 <span class="ml-3 flex-grow text-sm font-medium text-gray-700">Alma</span>
                             </label>
                         </div>
